@@ -152,7 +152,7 @@ says: _"relation \"students\" does not exist"_.
 Mitigation
 ~~~~~~~~~~
 
-Never construct database queries using string concatenation. Use
+Never construct database queries using string concatenation. Use 
 library-provided way to pass parameters and query separated. Use ORM.
 
 Stored XSS
